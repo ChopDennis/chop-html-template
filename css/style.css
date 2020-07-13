@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Noto+Serif+TC:wght@500&display=swap');
+
+body{
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Noto Serif TC';
+  line-height: 3rem
+}
+
+p, span, li, a {
+  font-family: 'Noto Sans TC';
+}
+
+p, li, a {
+  font-size: 1.25rem;
+  letter-spacing: 0.125rem;
+  line-height: 2.5rem;
+}
+
+nav {
+  background: rgba(0, 104, 55, 1);
+}
+
+.font-color-green {
+  color: #99cc33
+}
+
+.font-color-orange {
+  color: #ff9933;
+}
+
+.font-color-blue {
+  color: #6dcdd9;
+}
+
+.font-color-dark {
+  color: #666666;
+}
+
+.bg-color-green {
+  background-color: #99cc33 !important;
+}
+
+.bg-color-blue {
+  background-color: #6dcdd9 !important;
+}
+
+.bg-color-blue {
+  background-color: #ff9933 !important;
+}
+
+.border-color-green {
+  border: 3px solid #99cc33;
+}
+
+.border-color-orange {
+  border: 3px solid #ff9933;
+}
+
+.border-color-blue {
+  border: 3px solid #6dcdd9;
+}
+
+.border-color-dark {
+  border: 3px solid #666666;
+}
